@@ -1,0 +1,58 @@
+.SectionP{
+    margin-top: 25vh;
+    background-image: url(/fondo-abstracto-textura.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    position: sticky;
+    z-index: 4;
+}
+
+.Projects{
+    display: flex;
+    flex-flow:row nowrap;
+    justify-content: space-evenly;
+    gap: 5%;
+}
+
+
+/* Estilos ItemProyectos */
+
+.ProjectsItem{
+    width: 40%;
+    color: white;
+    position: static;
+    margin: 10px 15px;
+    border-radius: 15px;
+    background-image: url(/fondo-abstracto-textura.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.22);
+    overflow: hidden;  
+    transition: all 0.20s ease-in;
+    cursor: pointer;
+}
+.ProjectsItem:hover{
+    filter: drop-shadow(0 0 15px #00a551) drop-shadow(0 0 50px #00a551) contrast(1) brightness(1);
+}
+.Titles{
+    margin-left: 4%;
+    font-size: 3em;
+    color: #00a551;
+    filter: drop-shadow(0 0 15px #00a551) drop-shadow(0 0 50px #00a551) contrast(2) brightness(2);
+
+}
+.TitleItem{
+    margin-left: 2%;
+    font-size: 1em;
+    color: white;
+    filter: drop-shadow(0 0 15px white) drop-shadow(0 0 50px white) contrast(2) brightness(2);
+}
+.ImgProyects{
+    width: 100%;
+}
+
+.bodyPI{
+    border-radius: 15px;
+    font-size: large;
+    padding-bottom: 12px;
+}

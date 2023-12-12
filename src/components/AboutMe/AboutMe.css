@@ -1,0 +1,10 @@
+.AboutMe{
+    width: 60%;
+    height: 20rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    padding-top: 12vh;
+    margin-left: 35%;
+    text-align: center;
+}

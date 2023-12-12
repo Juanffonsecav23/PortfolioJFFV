@@ -1,0 +1,36 @@
+nav{
+    width: 100%;
+    display: flex;
+    flex-flow: row; 
+    justify-content: space-between;
+}
+.Menu{
+    width: 50%;
+    display: flex;
+    flex-flow: row nowrap;
+    list-style: none;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+}
+.Logo{
+    width: 150px;
+    border-radius: 50%;
+    filter: drop-shadow(0 0 15px #00a551) drop-shadow(0 0 50px #00a551) contrast(2) brightness(2);
+}
+
+.links {
+    padding: 10px;
+    font-weight: 500;
+    color: #00a551;
+    filter: drop-shadow(0 0 15px #00a551) drop-shadow(0 0 50px #00a551) contrast(2) brightness(1);
+    text-decoration: inherit;
+    transition: .5s;
+  }
+  
+.links:hover {
+    border-radius: 50px;
+    color: black;
+    background-color: #02c435;
+    filter: drop-shadow(0 0 20px #02c435) contrast(2) brightness(2);
+  }

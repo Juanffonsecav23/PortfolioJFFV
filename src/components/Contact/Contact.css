@@ -1,0 +1,42 @@
+.BackgroundContact{
+    background-image: url(/fondo-abstracto-textura.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    position: sticky;
+    z-index: 4
+}
+.SectionContact{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+.ContactMedia{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    row-gap: 40px;
+    column-gap: 40px;
+    width: 70%;
+    align-items: center; 
+    filter: drop-shadow(0 0 20px #00a551) contrast(2) brightness(2);
+}
+.CCenter{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    filter: drop-shadow(0 0 20px white) drop-shadow(0 0 50px white) contrast(2) brightness(2);
+    text-decoration: none;
+}
+.CCenter:hover{
+    background-color: #00a551;
+    border-radius: 50px;
+    filter: drop-shadow(0 0 5px #00a551)  contrast(2) brightness(2);
+}
+.IconContact{
+    width: 30px;
+    height: 30px;
+    transition: .5s;
+    cursor:pointer ;
+}

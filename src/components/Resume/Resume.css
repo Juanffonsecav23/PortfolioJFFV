@@ -1,0 +1,42 @@
+.SectionR{
+    height: 100vh;
+    width: 95%;
+    padding-top: 20vh;
+    background-image: url(/fondo-abstracto-textura.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    position: sticky;
+    z-index: 4
+}
+
+.FlexResume{
+    width: 100%;
+    padding-left: 3%;
+    display: grid;
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: repeat(2, 100px);
+    column-gap: 10px;
+    row-gap: 100px;
+}
+.Box{
+    display: flex;
+    flex-flow: row nowrap;
+    height: 300px;
+    gap: 20px;
+    align-items: center;
+}
+.BoxDescription{
+    display: flex;
+    flex-flow: column nowrap;
+}
+.BackgroundIcon{
+    background-color:#00a551 ;
+    border-radius: 100%;
+}
+.IconResume{
+    width: 20rem;
+    height: 6rem;
+    color: white;
+    filter: drop-shadow(0 0 15px #00a551) drop-shadow(0 0 50px #00a551) contrast(2) brightness(1);
+}
+
