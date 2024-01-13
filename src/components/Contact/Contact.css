@@ -27,6 +27,8 @@
     color: white;
     filter: drop-shadow(0 0 20px white) drop-shadow(0 0 50px white) contrast(2) brightness(2);
     text-decoration: none;
+    transition: .5s;
+
 }
 .CCenter:hover{
     background-color: #00a551;
